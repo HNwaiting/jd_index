@@ -7,56 +7,104 @@
     <link rel="stylesheet" href="jd_common.css">
 </head>
 <body>
-<!--页面顶部-->
+<!--1.页面顶部-->
 <header id="top">
     <!--五角星图片，收藏京东文本，一段文字列表-->
-    <img src="images/star.jpg" alt="收藏" class="cookies">
-    <a href="#" >收藏京东</a>
-    <ul class="rt">
-        <li>
-            您好，欢迎来到京东
-            <a href="#">[登录]</a>
-            <a href="#">[免费注册]</a>
-        </li>
-        <li>
-            <b ></b><!--只做边框-->
-            <a href="#">我的订单</a>
-        </li>
-        <li class="vip">
-            <b></b>
-            <a href="#">会员俱乐部</a>
-        </li>
-        <li class="chanel">
-            <b></b>
-            <a href="#">企业频道</a>
-        </li>
-        <li class="mobile">
-            <b></b>
-            <a href="#">手机京东</a>
-        </li>
-        <li class="service">
-            <b></b>
-            <a href="#">客户服务</a>
-            <!--弹出列表-->
-            <ul id="service-items">
-                <li><a href="#">帮助中心</a></li>
-                <li><a href="#">售后服务</a></li>
-                <li><a href="#">在线客服</a></li>
-                <li><a href="#">投诉中心</a></li>
-                <li><a href="#">客服邮箱</a></li>
+    <div id="top_box">
+        <img src="images/star.jpg" alt="收藏" class="cookies">
+        <a href="#">收藏京东</a>
+        <div class="rt">
+            <ul>
+                <li>
+                    您好，欢迎来到京东
+                    <a href="#">[登录]</a>
+                    <a href="#">[免费注册]</a>
+                </li>
+                <li>
+                    <b></b><!--只做边框-->
+                    <a href="#">我的订单</a>
+                </li>
+                <li class="vip">
+                    <b></b>
+                    <a href="#">会员俱乐部</a>
+                </li>
+                <li class="chanel">
+                    <b></b>
+                    <a href="#">企业频道</a>
+                </li>
+                <li class="mobile">
+                    <b></b>
+                    <a href="#">手机京东</a>
+                </li>
+                <li class="service">
+                    <!--边框-->
+                    <b></b>
+                    <a href="#">客户服务</a>
+                    <!--弹出列表-->
+                    <ul id="service-items">
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">售后服务</a></li>
+                        <li><a href="#">在线客服</a></li>
+                        <li><a href="#">投诉中心</a></li>
+                        <li><a href="#">客服邮箱</a></li>
 
+                    </ul>
+                </li>
+                <li>
+                    <b></b>
+                    <a href="#">网站导航</a>
+                </li>
             </ul>
-        </li>
-        <li>
-            <b></b>
-            <a href="#">网站导航</a>
-        </li>
-    </ul>
+        </div>
+    </div>
 </header>
 
-<!--logo和搜索框-->
+<!--2.logo和搜索框-->
 <div id="top_main">
+    <!--logo-->
+    <a href="#" class="lf">
+        <img src="images/logo-201305.png" alt="京东" border="0px">
+    </a>
+    <!--搜索框和搜索按钮-->
+    <div id="search_box" class="lf">
+        <!--上：搜索框和按钮-->
+        <div class="search">
+            <input id="txtSearch" type="text" class="text">
+            <input type="button" value="搜索" class="button">
+        </div>
+        <!--下热门搜索-->
+        <div class="hot_words">
+            <!--<ul class="lf">-->
+                <!--<li>热门搜索：</li>-->
+                <!--<li>家纺11月大促</li>-->
+                <!--<li>彩虹电热毯</li>-->
+                <!--<li>博洋家纺</li>-->
+                <!--<li>陈伟霆同款</li>-->
+                <!--<li>雪地靴</li>-->
+                <!--<li>毛毯</li>-->
+                <!--<li>围巾</li>-->
+            <!--</ul>-->
+            <span>热门搜索：</span>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
 
+        </div>
+    </div>
+    <!--我的京东-->
+    <div id="my_jd">
+
+    </div>
+    <!--去购物车结算-->
+    <div class="settle_up">
+
+    </div>
+    <div style="clear: both;"></div>
 </div>
 
 
