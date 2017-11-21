@@ -4,6 +4,5 @@ a{
 }
 
 a:hover{
-    color: #ff0700;
     text-decoration: underline;
 }
