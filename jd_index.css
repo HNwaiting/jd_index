@@ -19,7 +19,9 @@ input{  border:none;  }
 .rt{  float: right; }
 .clear{  clear: both;  }
 
-
+a:hover{
+    color: red;
+}
 /************整体布局*****************/
 #top_box,#top_main,#nav,#banner,#main,#footer,#foot_box{
     width: 1211px;
@@ -40,7 +42,13 @@ input{  border:none;  }
 }
 #top_box.cookies{
     float: left;
-    /*margin: 9px 5px 0 0;*/
+    margin: 8px 4px 0 0;
+}
+
+#top_box>img{
+    display: block;
+    float: left;
+    margin: 9px 4px 0 0;
 }
 #top_box.rt{
     float: right;
@@ -48,6 +56,10 @@ input{  border:none;  }
 
 .rt>ul>li{
     float: left;
+    text-align: center;
+    position: relative;
+    /*margin-right: 5px;*/
+    z-index: 1;
 }
 
 .rt>ul>li>b{
@@ -114,7 +126,7 @@ li.service:hover #service-items{
     border:1px solid #ddd;
     border-top:none;
     background-color: #fff;
-    width: 80px;
+    width: 78px;
     text-align: center;
     /*定位*/
     position: absolute;
@@ -123,10 +135,10 @@ li.service:hover #service-items{
     display:none;
 }
 
-/*#service-items li{*/
-    /*padding-left: 10px;*/
-    /*margin: 0px;*/
-/*}*/
+#service-items li{
+    padding-left: 13px;
+    margin: 0;
+}
 
 /************2.logo和搜索框***************/
 #search_box {
@@ -141,7 +153,9 @@ div.search {
     border: 3px solid #E4393C;
     background-color:#E4393C;
 }
-input.text {
+
+
+.search input.text {
     width: 405px;
     height: 20px;
     padding: 5px;
@@ -152,24 +166,27 @@ input.text {
     /*font-size: 13px;*/
     /*font-family: arial,"\5b8b\4f53";*/
 }
-input.button {
+.search input.button {
     width: 75px;
+    height: 30px;
     background: #E4393C;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
     color: #fff;
-    height: 30px;
+}
+.search input.button:hover{
+    cursor: pointer;
 }
 
 .hot_words{
     /*float: left;*/
     height: 18px;
     color: #999;
-    overflow: hidden;
+    overflow: hidden; //超出隐藏
 }
 
 .hot_words span,a{
-    float: left;
+    /*float: left;*/
     color: #999;
     font-weight: 400;
     margin-right: 10px;
@@ -185,21 +202,57 @@ input.button {
 
 /*************我的京东************************/
 div #my_jd {
+    /*float: left;*/
     width: 65px;
     height: 30px;
+    border: 1px solid #EFEFEF;
     line-height: 30px;
     margin-top: 12px;
-    background-image: url(images/iconlist_2.png);
-    background-repeat: no-repeat;
-    background-position: -116px -24px;
-    background-color: #f7f7f7;
+    background: #f7f7f7
+    url(images/iconlist_2.png) no-repeat -116px -24px;
     text-align: center;
     cursor: pointer;
     position: relative;
     padding: 0 4px 0 25px;
-    border: 1px solid #EFEFEF;
-
 }
 
+div #my_jd b{
+    /*边框透明，上边框#ddd*/
+    border: 5px solid transparent;
+    border-top-color: #ddd;
+    /*相对定位：位置微调*/
+    position: relative;
+    top: 10px;
+}
+div #my_jd:hover{
+    background: #fff url("images/iconlist_2.png") no-repeat -116px -54px;
+}
 
+/***************************去购物车结算**********************************/
+div #settle_up {
+    /*float: left;*/
+    width: 90px;
+    height: 30px;
+    border: 1px solid #EFEFEF;
+    line-height: 30px;
+    margin: 12px 0 0 20px;
+    background: #f7f7f7
+    url(images/iconlist_2.png) no-repeat -118px -83px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding: 0 4px 0 25px;
+}
+
+div #settle_up b{
+    /*边框透明，上边框#ddd*/
+    border: 5px solid transparent;
+    border-top-color: #ddd;
+    /*相对定位：位置微调*/
+    position: relative;
+    top: 10px;
+}
+div #settle_up:hover{
+    background: #fff url("images/iconlist_2.png") no-repeat -118px -114px;
+}
 
