@@ -145,6 +145,7 @@ li.service:hover #service-items{
     width: 510px;
     padding: 4px 80px 0 40px;
     position:relative;
+    margin-top: 10px;
 }
 div.search {
     width:500px;
@@ -190,7 +191,6 @@ div.search {
     color: #999;
     font-weight: 400;
     margin-right: 10px;
-
 }
 .hot_words span{
     margin: 0;
@@ -207,7 +207,7 @@ div #my_jd {
     height: 30px;
     border: 1px solid #EFEFEF;
     line-height: 30px;
-    margin-top: 12px;
+    margin-top: 15px;
     background: #f7f7f7
     url(images/iconlist_2.png) no-repeat -116px -24px;
     text-align: center;
@@ -235,7 +235,7 @@ div #settle_up {
     height: 30px;
     border: 1px solid #EFEFEF;
     line-height: 30px;
-    margin: 12px 0 0 20px;
+    margin: 15px 0 0 20px;
     background: #f7f7f7
     url(images/iconlist_2.png) no-repeat -118px -83px;
     text-align: center;
@@ -256,3 +256,43 @@ div #settle_up:hover{
     background: #fff url("images/iconlist_2.png") no-repeat -118px -114px;
 }
 
+/*********************主导航*****************************/
+#nav{
+    height: 40px;
+    background-color: #e64346;
+}
+#nav p{
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #cd2a2c;
+    float: left;
+}
+#nav>p a{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#nav>ul li{
+    float: left;
+}
+
+#nav>ul li>a{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 0;
+    text-align: center;
+}
+
+#nav>ul li a:hover{
+    background-color: #bd2a2c;
+}
