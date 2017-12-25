@@ -312,7 +312,7 @@ div #settle_up:hover{
     height: 28px;
     border-bottom: 1px solid #fff;
 }
-#cate_box li a{
+#cate_box>li>a{
     display: inline-block;
     width: 186px;
     height: 28px;
@@ -322,4 +322,16 @@ div #settle_up:hover{
     font-size: 14px;
     font-weight: 400;
     padding-left: 13px;
+}
+/*******************弹窗*******************/
+
+/***************滑动广告**************/
+#cate_box_ad{
+    float: left;
+    width: 670px;
+    margin-top: 5px;
+    /*margin-left: 5px;*/
+}
+#cate_box_ad a{
+    margin-left: 10px;
 }
