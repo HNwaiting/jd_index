@@ -329,6 +329,7 @@ div #settle_up:hover{
     position: relative;
     z-index: 30;
 }
+
 /*******************弹窗*******************/
 #cate_box{
     position: relative; /*配合弹窗绝对定位*/
@@ -343,6 +344,7 @@ div #settle_up:hover{
     left: 195px;
     top: 0;
     z-index: 10;
+    /*display: none;*/
 }
 
 .sub_cate_box div.close{
@@ -373,6 +375,9 @@ div #settle_up:hover{
     border-left: 1px solid #999;
 }
 .sub_cate_items ul>li.title{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
     border-left: none;
 }
 .sub_cate_items ul li.title a{
