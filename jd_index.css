@@ -307,7 +307,7 @@ div #settle_up:hover{
     background-color: #fafafa;
     overflow: visible;
 }
-#cate_box li{
+#cate_box>li{
     width: 190px;
     height: 28px;
     border-bottom: 1px solid #fff;
@@ -323,8 +323,63 @@ div #settle_up:hover{
     font-weight: 400;
     padding-left: 13px;
 }
+#cate_box>li>a:hover{
+    background-color: white;
+    border-color: #ddd;
+    position: relative;
+    z-index: 30;
+}
 /*******************弹窗*******************/
+#cate_box{
+    position: relative; /*配合弹窗绝对定位*/
+}
+.sub_cate_box{
+    width: 720px;
+    min-height: 300px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 5px;
+    position: absolute;
+    left: 195px;
+    top: 0;
+    z-index: 10;
+}
 
+.sub_cate_box div.close{
+    width: 20px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 50%;
+    color: #fff;
+    font-weight:bold;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: -5px;
+
+}
+/*****************弹出框内容***************/
+.sub_cate_items ul{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+.sub_cate_items ul>li{
+    float: left;
+    /*padding-right: 5px;*/
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-left: 1px solid #999;
+}
+.sub_cate_items ul>li.title{
+    border-left: none;
+}
+.sub_cate_items ul li.title a{
+    color: #cd2a2c;
+    font-weight:bold;
+
+}
 /***************滑动广告**************/
 #cate_box_ad{
     float: left;
