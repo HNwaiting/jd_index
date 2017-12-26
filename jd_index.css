@@ -374,7 +374,6 @@ div #settle_up:hover{
     overflow: hidden;
     /*这个高度为什么没有继承？？*/
     width: 500px;
-    margin-bottom: 10px;
     border-top: 1px solid #eeeeee;
     /*竖线边框*/
     padding:5px 0;
