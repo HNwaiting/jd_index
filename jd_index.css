@@ -363,27 +363,38 @@ div #settle_up:hover{
 
 }
 /*****************弹出框内容***************/
+.sub_cate_items{
+    width: 500px;
+    min-height: 100px;
+    float: left;
+}
+
 .sub_cate_items ul{
+    /*撑起当前元素高度怎么没实现？？？*/
+    overflow: hidden;
+    /*这个高度为什么没有继承？？*/
+    width: 500px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    /*竖线边框*/
+    padding:5px 0;
 }
 .sub_cate_items ul>li{
     float: left;
-    /*padding-right: 5px;*/
     padding-left: 10px;
     padding-bottom: 5px;
     border-left: 1px solid #999;
 }
 .sub_cate_items ul>li.title{
     display: inline-block;
-    width: 80px;
+    width: 70px;
     text-align: right;
+    text-decoration: underline;
     border-left: none;
 }
 .sub_cate_items ul li.title a{
     color: #cd2a2c;
     font-weight:bold;
-
 }
 /***************滑动广告**************/
 #cate_box_ad{
