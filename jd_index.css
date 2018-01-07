@@ -329,6 +329,10 @@ div #settle_up:hover{
     position: relative;
     z-index: 30;
 }
+/*鼠标移入弹出*/
+#cate_box li:hover #sub_cate_box{
+    display: block;
+}
 
 /*******************弹窗*******************/
 #cate_box{
@@ -344,7 +348,7 @@ div #settle_up:hover{
     left: 195px;
     top: 0;
     z-index: 10;
-    display: none;
+    /*display: none;*/
 }
 
 .sub_cate_box div.close{
