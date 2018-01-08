@@ -274,7 +274,9 @@ div #settle_up:hover{
     font-weight: bold;
     text-decoration: none;
     padding-left: 20px;
+    /*background: url("images/iconlist_2.png") no-repeat 56px -65px;*/
 }
+
 
 #nav>ul li{
     float: left;
@@ -348,7 +350,7 @@ div #settle_up:hover{
     left: 195px;
     top: 0;
     z-index: 10;
-    /*display: none;*/
+    display: none;
 }
 
 .sub_cate_box div.close{
@@ -399,13 +401,58 @@ div #settle_up:hover{
     color: #cd2a2c;
     font-weight:bold;
 }
+/*************弹框右侧广告*************/
+#cate_box div.sub_cate_banner{
+    float: right;
+    width:194px;
+    min-height: 100px;
+    margin-right: 10px;
+}
+#cate_box div.sub_cate_banner h4{
+    color: #e4393c;
+}
+#cate_box div.sub_cate_banner li{
+    /*padding: 3px;*/
+    margin: 3px 0;
+}
 /***************滑动广告**************/
-#cate_box_ad{
+/*避免占高度？？？？？？？*/
+img{
+    vertical-align: bottom;
+}
+#slider_box{
     float: left;
     width: 670px;
-    margin-top: 5px;
-    /*margin-left: 5px;*/
+    height: 400px;
+    margin-top: 10px;
+    /*margin-left: 10px;*/
+
 }
-#cate_box_ad a{
+#slider{
+    position: relative;
+}
+#slider ul{
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+}
+#slider li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #555;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+    float: left;
+}
+#slider li:hover{
+    background-color: #e4393c;
+    cursor: pointer;
+}
+#slider_box a{
     margin-left: 10px;
 }
