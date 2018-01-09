@@ -469,6 +469,7 @@ img{
     background-repeat: no-repeat;
     width: 25px;
     height: 35px;
+
 }
 #slider_box .preview a,#slider_box .preview a:hover{
     float: left;
@@ -483,16 +484,25 @@ img{
 #slider_box .ad ul .li_last{
     border-right: none;
 }
-
-#slider_box .ad span a{
-    background-image: url("images/index/ad-arraw.png");
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 35px;
+#slider_box .ad span a:hover {
+    background-image:url(images/index/ad-arraw-hover.png);
 }
+
 #slider_box .next a, #slider_box .next a:hover{
     float: right;
     margin: 65px 3px 59px 0;
     background-position: 0 -37px;
-
+}
+/*******************京东快报*****************/
+#focus_extra{
+    padding-top: 10px;
+    float: left;
+    margin-left: 15px;
+}
+#focus_extra a{
+    margin-right: 0;
+}
+#focus_extra .ad img{
+    width:306px;
+    height: 70px;
 }
