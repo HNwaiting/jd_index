@@ -228,7 +228,7 @@ div #my_jd:hover{
     background: #fff url("images/iconlist_2.png") no-repeat -116px -54px;
 }
 
-/***************************去购物车结算**********************************/
+/******************去购物车结算*******************/
 div #settle_up {
     /*float: left;*/
     width: 90px;
@@ -510,13 +510,15 @@ img{
 /****************京东快报内容****************/
 #focus_extra #news{
     margin-top: 5px;
+    height: 145px;
 }
 #focus_extra #news .title{
     margin-top: 12px;
+    padding-bottom: 4px;
+    overflow: hidden;
 }
 #focus_extra #news .title span{
     float: left;
-    /*color: #333;*/
     font-weight: bold;
     font-size: 14px;
 }
@@ -545,3 +547,59 @@ img{
 #focus_extra #news .content ul.right{
     border-right: none;
 }
+
+/*************八个功能图标***********/
+#virtuals {
+    margin-top: 6px;
+    width: 308px;
+    height: 166px;
+    border-left: 1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+}
+#virtuals ul li{
+    width: 76px;
+    height: 84px;
+    border-top: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    float: left;
+    text-align: center;
+}
+#virtuals s{
+    background: url("images/index/virtuals-20140606.png") no-repeat;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 11px auto 2px auto;
+}
+#virtuals ul #jipiao s{
+    background-position: 0 -50px;
+}
+#virtuals ul #caipiao s{
+    background-position: -126px 0;
+}
+#virtuals ul #youxi s{
+    background-position: -189px 0;
+}
+
+#virtuals ul #lvxing s{
+    background-position: -63px 0;
+}
+#virtuals ul #dianyingpiao s{
+    background-position: -63px -50px;
+}
+#virtuals ul #licai s{
+    background-position: -126px -50px;
+}
+#virtuals ul #shuidianmei s{
+    background-position: -189px -50px;
+}
+
+#virtuals ul li i {
+    background:url(images/index/virtuals_arraw.gif) no-repeat center center;
+    width:20px;
+    height:15px;
+    display:block;
+    margin:0px auto;
+}
+
+/*******************************index V 02 ************************************************/
