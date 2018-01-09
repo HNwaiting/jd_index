@@ -493,7 +493,7 @@ img{
     margin: 65px 3px 59px 0;
     background-position: 0 -37px;
 }
-/*******************京东快报*****************/
+/*******************京东快报图*****************/
 #focus_extra{
     padding-top: 10px;
     float: left;
@@ -505,4 +505,23 @@ img{
 #focus_extra .ad img{
     width:306px;
     height: 70px;
+}
+
+/****************京东快报内容****************/
+#focus_extra #news{
+    margin-top: 5px;
+}
+#focus_extra #news .title{
+    margin-top: 12px;
+}
+#focus_extra #news .title span{
+    float: left;
+    /*color: #333;*/
+    font-weight: bold;
+    font-size: 14px;
+}
+#focus_extra #news .title a{
+    color:#005ea7;
+    font-size: 12px;
+    float: right;
 }
