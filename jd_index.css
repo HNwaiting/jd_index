@@ -28,6 +28,10 @@ a:hover{
     margin:0 auto;
 
 }
+/*#top_main{*/
+    /*height: 60px;*/
+    /*padding: 15px 0;*/
+/*}*/
  /*页面顶部*/
 #top{
     /*高度，行高，背景颜色，下边框*/
@@ -599,7 +603,7 @@ img{
     width:20px;
     height:15px;
     display:block;
-    margin:0px auto;
+    margin:0 auto;
 }
 
 /*******************************index V 02 ************************************************/
