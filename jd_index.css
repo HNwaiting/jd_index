@@ -190,7 +190,7 @@ div.search {
     /*float: left;*/
     color: #999;
     font-weight: 400;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 .hot_words span{
     margin: 0;
@@ -524,4 +524,24 @@ img{
     color:#005ea7;
     font-size: 12px;
     float: right;
+}
+
+#focus_extra #news .content{
+    width: 308px;
+    border: 1px solid #f1f1f1;
+    border-top: 2px solid #aaa;
+    padding: 4px 0;
+    line-height: 25px;
+    overflow: hidden;
+}
+#focus_extra #news .content ul{
+    float: left;
+    padding:0 10px;
+    border-right: 1px solid #f1f1f1;
+}
+#focus_extra #news .content li a{
+    color: #666;
+}
+#focus_extra #news .content ul.right{
+    border-right: none;
 }
