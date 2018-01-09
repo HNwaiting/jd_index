@@ -456,3 +456,43 @@ img{
 #slider_box a{
     margin-left: 10px;
 }
+/************三小广告*************/
+#slider_box .ad{
+    width: 668px;
+    height: 159px;
+    border: 1px solid #eee;
+    border-top: none;
+    margin-left: 10px;
+}
+#slider_box .ad span a{
+    background-image: url("images/index/ad-arraw.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 35px;
+}
+#slider_box .preview a,#slider_box .preview a:hover{
+    float: left;
+    margin: 65px 4px 59px 3px;
+}
+#slider_box .ad ul li{
+    float: left;
+    height: 159px;
+    /*padding: 5px 10px 7px 5px;*/
+    border-right: 1px solid #eee;
+}
+#slider_box .ad ul .li_last{
+    border-right: none;
+}
+
+#slider_box .ad span a{
+    background-image: url("images/index/ad-arraw.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 35px;
+}
+#slider_box .next a, #slider_box .next a:hover{
+    float: right;
+    margin: 65px 3px 59px 0;
+    background-position: 0 -37px;
+
+}
