@@ -610,7 +610,7 @@ img{
 #main #show_box{
     padding: 10px 0;
 }
-#main #show_box p{
+#show_box>p{
     font-size: 16pt;
     font-weight: bold;
     margin-bottom: 10px;
@@ -621,4 +621,103 @@ img{
     font-style: italic;
     color: #999;
     margin-left: 10px;
+}
+/*展示项*/
+#show_box>ul>li{
+    width:297px;
+    height: 190px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    /*线性变化*/
+    transition:background 0.3s linear;
+}
+/*透明遮罩*/
+#show_box>ul>li>b {
+    background-color:#fff;
+    opacity:0.8;
+    width:45%;
+    height:190px;
+    height:100%;
+    display:block;
+    position:relative;
+    z-index:100;
+}
+
+/*遮罩上一层的文本*/
+#show_box>ul>li>div {
+    padding:20px;
+    margin-top:10px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:200;
+    color:#333;
+}
+#show_box>ul>li>div>h3 {
+    font-size:18px;
+    color:#50504c;
+    font-weight:bold;
+}
+#show_box>ul>li>div>h4 {
+    line-height:20px;
+    font-size:13px;
+    color:#666;
+    font-weight:normal;
+}
+#show_box>ul>li>div>p {
+    color:#e4393c;
+    font-size:12px;
+    /*font-weight:normal;*/
+}
+#show_box>ul>li>div>span {
+    padding: 1px 3px;
+    font-size: 12px;
+    background: #e4393c;
+    color: #fff;
+}
+#show_box>ul>li>div>ul {
+    margin-top:20px;
+}
+#show_box>ul>li>div>ul>li {
+    color:#888;
+}
+#show_box>ul>li>div>ul>li>i {
+    width: 2px;
+    height: 2px;
+    background-color: #666;
+    float: left;
+    margin-top: 7px;
+    margin-right: 4px;
+}
+/****************列表项背景图片*******************/
+#show_box>ul>li:hover {
+    background-position:-10px 0;
+}
+li.pinpaijie{
+    background-image: url("images/index/show_01.jpg");
+}
+li.ttdijia {
+    background-image:url(images/index/show_02.jpg);
+}
+li.haodongxi {
+    background-image:url(images/index/show_03.jpg);
+}
+li.jinrituangou {
+    background-image:url(images/index/show_04.png);
+}
+li.jdshoufa {
+    background-image:url(images/index/show_05.jpg);
+}
+li.youhuiquan{
+    background-image:url(images/index/show_06.jpg);
+}
+li.jdyushou {
+    background-image:url(images/index/show_07.jpg);
+}
+li.jinrongjingxuan {
+    background-image:url(images/index/show_08.jpg);
 }
