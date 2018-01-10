@@ -607,3 +607,18 @@ img{
 }
 
 /*******************************index V 02 ************************************************/
+#main #show_box{
+    padding: 10px 0;
+}
+#main #show_box p{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+#show_box span{
+    font-size: 10pt;
+    font-style: italic;
+    color: #999;
+    margin-left: 10px;
+}
