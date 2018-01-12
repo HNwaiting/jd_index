@@ -183,14 +183,14 @@ div.search {
     cursor: pointer;
 }
 
-.hot_words{
+#search_box .hot_words{
     /*float: left;*/
     height: 18px;
     color: #999;
     overflow: hidden; //超出隐藏
 }
 
-.hot_words span,a{
+#search_box .hot_words span,a{
     /*float: left;*/
     color: #999;
     font-weight: 400;
@@ -720,4 +720,59 @@ li.jdyushou {
 }
 li.jinrongjingxuan {
     background-image:url(images/index/show_08.jpg);
+}
+/**************三小幅广告************************/
+#ad_box{
+    /*width: 1211px;*/
+    overflow: hidden;
+}
+#ad_box a{
+    margin-right: 0;
+}
+#ad_box li{
+    float: left;
+    margin-right: 10px;
+}
+#ad_box li.last{
+    float: right;
+    margin-right: 0;
+}
+/****************购物指南一楼************************/
+div.floor{
+    width: 100%;
+    height: 404px;
+    margin-bottom: 10px;
+}
+#f1 header{
+    height:40px;
+}
+#f1 header>span{
+    width: 26px;
+    height: 36px;
+    float: left;
+    font-weight: bold;
+    font-size: 18pt;
+    color: white;
+    background: url("images/index/index_iconlist_01.png") no-repeat 0 2px;
+
+}
+#f1 header>p{
+    float: left;
+    padding-left: 30px;
+}
+#f1 ul.tab{
+    float:left;
+    height: 40px;
+    /*margin: 0 10px;*/
+}
+#f1 ul.tab li{
+    float: left;
+    margin:0 10px;
+}
+#f1 ul.link{
+    float: right;
+}
+#f1 ul.link li{
+    float: left;
+    margin-left: 10px;
 }
