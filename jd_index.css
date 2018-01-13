@@ -190,7 +190,7 @@ div.search {
     overflow: hidden; //超出隐藏
 }
 
-#search_box .hot_words span,a{
+#search_box .hot_words a{
     /*float: left;*/
     color: #999;
     font-weight: 400;
@@ -200,9 +200,6 @@ div.search {
     margin: 0;
 }
 
-.hot_words a{
-    color: #999;
-}
 
 /*************我的京东************************/
 div #my_jd {
@@ -295,7 +292,7 @@ div #settle_up:hover{
     color: white;
     font-size: 15px;
     font-weight: bold;
-    margin-right: 0;
+    /*margin-right: 0;*/
     text-align: center;
 }
 
@@ -457,9 +454,7 @@ img{
     background-color: #e4393c;
     cursor: pointer;
 }
-#slider_box a{
-    margin-left: 10px;
-}
+
 /************三小广告*************/
 #slider_box .ad{
     width: 668px;
@@ -482,7 +477,7 @@ img{
 #slider_box .ad ul li{
     float: left;
     height: 159px;
-    /*padding: 5px 10px 7px 5px;*/
+    padding: 10px 10px 7px 10px;
     border-right: 1px solid #eee;
 }
 #slider_box .ad ul .li_last{
@@ -503,9 +498,7 @@ img{
     float: left;
     margin-left: 15px;
 }
-#focus_extra a{
-    margin-right: 0;
-}
+
 #focus_extra .ad img{
     width:306px;
     height: 70px;
@@ -726,9 +719,6 @@ li.jinrongjingxuan {
     /*width: 1211px;*/
     overflow: hidden;
 }
-#ad_box a{
-    margin-right: 0;
-}
 #ad_box li{
     float: left;
     margin-right: 10px;
@@ -739,7 +729,6 @@ li.jinrongjingxuan {
 }
 /****************购物指南一楼************************/
 #f1 ul.tab li a{
-    margin-right: 0;
     display: block;
     width: 158px;
     height: 23px;
