@@ -803,3 +803,24 @@ div.floor{
 #f1 ul.link li a{
     color: #005ea7;
 }
+/*楼层内容*/
+div.floor aside.lf_list{
+    float: left;
+    width:211px;
+    height: 362px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+div.floor aside.lf_list ul{
+    padding:0 5px;
+    /*撑起高度*/
+    overflow: hidden;
+}
+div.floor aside.lf_list li{
+    float: left;
+    width:50%;
+    line-height: 25px;
+}
+div.floor aside.lf_list p{
+    margin-top: 5px;
+}
