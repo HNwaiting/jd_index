@@ -856,3 +856,16 @@ div.floor dd.text{
     color: #E4393C;
     text-align: center;
 }
+/*右侧边栏*/
+div.floor aside.rt_list{
+    float: left;
+    width: 200px;
+    height: 180px;
+}
+div.floor aside.rt_list li{
+    float: left;
+    width: 50%;
+    height: 35px;
+    border-top: 1px dotted #f1f1f1;
+    text-align: center;
+}
