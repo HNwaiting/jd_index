@@ -824,3 +824,34 @@ div.floor aside.lf_list li{
 div.floor aside.lf_list p{
     margin-top: 5px;
 }
+/*图片内容*/
+div.floor div.content{
+    float: left;
+    width: 790px;
+    height: 362px;
+}
+div.floor div.content dl{
+    width: 157px;
+    height: 181px;
+    float: left;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+div.floor div.content div{
+    float: left;
+    width: 473px;
+    height: 180px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+div.floor dt{
+    text-align: center;
+}
+div.floor dd {
+    padding: 0 10px;
+    line-height: 22px;
+}
+div.floor dd.text{
+    color: #E4393C;
+    text-align: center;
+}
