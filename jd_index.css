@@ -848,6 +848,7 @@ div.floor dt{
     text-align: center;
 }
 div.floor dd {
+    height: 40px;
     padding: 0 10px;
     line-height: 22px;
 }
