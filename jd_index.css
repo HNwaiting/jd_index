@@ -728,6 +728,44 @@ li.jinrongjingxuan {
     margin-right: 0;
 }
 /****************购物指南一楼************************/
+/*****************固定楼层宽度*************/
+/*.elevator{
+    left: 34.5px;
+    top: 50%;
+    margin-top:-45px;
+    display:none;
+    position: fixed;
+    z-index: 5;
+    width:30px;
+}
+.elevator li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: -1px;
+    cursor: pointer;
+}
+.elevator li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    color: #625351;
+    font-size: 14px;
+    font-family: Arial;
+}
+.elevator li .etitle {
+    display: none;
+    height: 30px;
+    color: red;
+    font-size: 12px;
+    text-align:center;
+    color: #fff;
+    background-color:red;
+}*/
+/********楼层菜单导航栏**********/
 #f1 ul.tab li a{
     display: block;
     width: 158px;
@@ -803,7 +841,7 @@ div.floor{
 #f1 ul.link li a{
     color: #005ea7;
 }
-/*楼层内容*/
+/************楼层内容***********/
 div.floor aside.lf_list{
     float: left;
     width:211px;
@@ -869,3 +907,39 @@ div.floor aside.rt_list li{
     border-top: 1px dotted #f1f1f1;
     text-align: center;
 }
+/*********************************页脚*******************/
+#foot_box{
+    float: left;
+    width: 1211px;
+    height: 175px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#foot_box p {
+    display:inline-block;
+    width:40px;
+    height:40px;
+    float:left;
+    margin:5px 5px 0px 55px;
+    background-image:url(images/iconlist_2.png);
+    background-repeat:no-repeat;
+}
+#foot_box ul {
+    width:140px;
+    float:left;
+}
+#foot_box ul li {
+    line-height:22px;
+}
+#foot_box ul li b {
+    font-weight:bold;
+    line-height:30px;
+}
+#foot_box a:hover {color:#ff0700;}
+p.shopping_guide {background-position:0px -55px}
+p.send_type {background-position: -50px -55px;}
+p.pay_type {background-position:0px -102px;}
+p.sale_service {background-position:-50px -102px;}
+p.special_service {background-position:0px -149px;}
