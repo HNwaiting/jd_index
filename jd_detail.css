@@ -8,18 +8,3 @@
     overflow:hidden;
     border:1px solid red;
 }
-/*类别导航路径*/
-div.bread-crumb  {
-    height:20px;
-    padding: 0 0 4px 6px;
-    margin: 10px 2px;
-    overflow: hidden;
-    line-height: 20px;
-}
-div.bread-crumb a  {
-    padding-right:3px;
-}
-div.bread-crumb a:hover  {
-    color: #cd2a2c;
-    text-decoration: underline;
-}
