@@ -17,19 +17,22 @@ div{
 }
 #bread-crumb{
     width: 1211px;
-    background: red;
+    /*background: red;*/
 }
 #produck_intro{
     width: 1211px;
-    background: green;
+    /*background: green;*/
 }
 #lf_product{
     width: 211px;
-    background: blue;
+    /*background: blue;*/
     /*display: inline-block;*/
 }
 #rt_product{
     width: 986px;
     margin-left: 10px;
-    background: yellow;
+    /*background: yellow;*/
+}
+#bread-crumb b{
+    font-size: 18px;
 }
