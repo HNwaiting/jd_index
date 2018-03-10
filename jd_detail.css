@@ -3,6 +3,9 @@
 #banner {
     display:none;
 }
+div{
+    display: inline-block;
+}
 /****************************Detail:V01**********************************/
 #main {
     display: flex;
@@ -11,4 +14,22 @@
     flex-wrap: wrap;
     overflow:hidden;
     border:1px solid red;
+}
+#bread-crumb{
+    width: 1211px;
+    background: red;
+}
+#produck_intro{
+    width: 1211px;
+    background: green;
+}
+#lf_product{
+    width: 211px;
+    background: blue;
+    /*display: inline-block;*/
+}
+#rt_product{
+    width: 986px;
+    margin-left: 10px;
+    background: yellow;
 }
