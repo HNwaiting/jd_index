@@ -33,6 +33,6 @@ div{
     margin-left: 10px;
     /*background: yellow;*/
 }
-#bread-crumb b{
+#bread-crumb a{
     font-size: 18px;
 }
