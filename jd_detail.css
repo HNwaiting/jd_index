@@ -36,3 +36,9 @@ div{
 #bread-crumb b{
     font-size: 18px;
 }
+
+/************************产品介绍**************************/
+#produck_intro{
+    display: flex;
+    justify-content: space-between;
+}
