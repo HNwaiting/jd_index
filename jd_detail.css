@@ -41,4 +41,10 @@ div{
 #produck_intro{
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
+}
+
+#produck_intro #preview{
+    width: 330px;
+    height: 330px;
 }
