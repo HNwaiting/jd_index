@@ -6,3 +6,13 @@ text-decoration: none;
 a:hover{
     text-decoration: underline;
 }
+img{
+    vertical-align: middle;
+}
+.lf{
+    float: left;
+}
+rt{
+    float: right;}
+.clear{
+    clear: both;}

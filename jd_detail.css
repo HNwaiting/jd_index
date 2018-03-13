@@ -45,6 +45,17 @@ div{
 }
 
 #produck_intro #preview{
-    width: 330px;
-    height: 330px;
+    width: 350px;
+    height: 350px;
+}
+#preview>p{
+    border: 1px solid #ddd;
+}
+#preview>div{
+    display: flex;
+}
+#preview>div>a{
+    width: 17px;
+    height: 54px;
+    background: url("images/iconlist_1.png") no-repeat ;
 }
