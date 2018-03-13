@@ -77,11 +77,13 @@ section{
     justify-content: space-between;
 }
 #preview>div li{
-    width: 54px;
-    height: 54px;
+    width: 52px;
+    height: 52px;
     border: 1px solid #ddd;
+    padding: 1px;
 }
 
 #preview>div li:hover{
     border: 2px solid #e4393c;
+    padding: 0;
 }
