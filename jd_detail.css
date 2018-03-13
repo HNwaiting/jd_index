@@ -44,6 +44,7 @@ section{
 /************************产品介绍**************************/
 #produck_intro{
     display: flex;
+    height: 400px;
     justify-content: space-between;
     margin: 10px 0;
 }
@@ -57,9 +58,30 @@ section{
 }
 #preview>div{
     display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
 }
 #preview>div>a{
     width: 17px;
     height: 54px;
-    background: url("images/iconlist_1.png") no-repeat ;
+    margin-top: 3px;
+    background: url("images/iconlist_1.png") no-repeat 0 -141px;
+}
+#preview>div>a.next{
+    background-position: -19px -142px;
+}
+#preview>div>ul{
+    /*弹性布局，宽度，项目对齐方式*/
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+}
+#preview>div li{
+    width: 54px;
+    height: 54px;
+    border: 1px solid #ddd;
+}
+
+#preview>div li:hover{
+    border: 2px solid #e4393c;
 }
