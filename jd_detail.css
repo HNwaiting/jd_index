@@ -87,3 +87,8 @@ section{
     border: 2px solid #e4393c;
     padding: 0;
 }
+/*右边文字介绍*/
+#detail{
+    width: 849px;
+    height: 352px;
+}
