@@ -96,3 +96,12 @@ section{
     color: #E4393C;
     font-size: 16px;
 }
+#summary{
+    /*上边框，上外边距，上内边距*/
+    border-top: 1px dotted #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 294px;
+    /*弹性布局*/
+    /*display: flex;*/
+}
