@@ -92,3 +92,7 @@ section{
     width: 849px;
     height: 352px;
 }
+#detail b{
+    color: #E4393C;
+    font-size: 16px;
+}
