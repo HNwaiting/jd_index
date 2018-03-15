@@ -90,7 +90,7 @@ section{
 /*右边文字介绍*/
 #detail{
     width: 849px;
-    height: 352px;
+    height: 350px;
 }
 #detail b{
     color: #E4393C;
@@ -101,7 +101,12 @@ section{
     border-top: 1px dotted #ddd;
     margin-top: 10px;
     padding-top: 10px;
-    height: 294px;
+    height: 285px;
     /*弹性布局*/
-    /*display: flex;*/
+    display: flex;
+    /*纵向弹性排列 主轴为交叉轴*/
+    flex-direction: column;
+    /*多行数据两端对齐，处理多行数据一行放不下自动换行的情况*/
+    /*align-content: space-between;*/
+    justify-content: space-between;
 }
