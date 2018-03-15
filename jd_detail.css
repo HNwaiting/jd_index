@@ -137,6 +137,23 @@ section{
     height: 14px;
     background: url("images/iconlist_1.png") -109px -239px no-repeat;
 }
-#summary_stock #store_select span{
+#store_select span{
     border: 1px solid #ddd;
+    height: 23px;
+    line-height: 23px;
+    background: #fff;
+    padding: 0 20px 0 4px;
+    overflow: hidden;
+    display: inline-block;
+    /*配合弹出框绝对定位*/
+    position: relative;
+}
+#store_select span b{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17px;
+    height: 24px;
+    background: url("images/iconlist_1.png") -264px -188px no-repeat;
 }
