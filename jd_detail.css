@@ -92,7 +92,7 @@ section{
     width: 849px;
     height: 350px;
 }
-#detail b{
+#detail>b{
     color: #E4393C;
     font-size: 16px;
 }
@@ -109,4 +109,24 @@ section{
     /*多行数据两端对齐，处理多行数据一行放不下自动换行的情况*/
     /*align-content: space-between;*/
     justify-content: space-between;
+}
+#summary li.line{
+    width: 600px;
+    border-top: 1px dotted #ddd;
+}
+#summary li{
+    display: flex;
+    align-items: center;
+}
+#summary li>p{
+    font-family: SimSun-ExtB;
+    width: 72px;
+    text-align: right;
+}
+#summary_price b{
+    font-size: 18px;
+    color: #E4393C;
+}
+#summary_price a:hover{
+    color: #005ea7;
 }
