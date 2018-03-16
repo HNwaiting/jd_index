@@ -157,3 +157,29 @@ section{
     height: 24px;
     background: url("images/iconlist_1.png") -264px -188px no-repeat;
 }
+#store_select{
+    position: relative;
+}
+/*弹框*/
+#store_content{
+    display: none;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 410px;
+    min-height: 200px;
+    /*绝对定位*/
+    position: absolute;
+    left:-10px;
+    top: 24px;
+}
+/*鼠标移入*/
+#store_select:hover #store_content{
+    display: block;
+}
+#store_select:hover #store_select span{
+    border-bottom: none;
+}
+#store_content #store_tabs li{
+    display: flex;
+    justify-content: space-between;
+}
