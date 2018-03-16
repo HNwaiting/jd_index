@@ -177,7 +177,8 @@ section{
     display: block;
 }
 #store_select:hover #store_select span{
-    border-bottom: none;
+    border-bottom-color: white;
+    z-index: 30;
 }
 #store_content #store_tabs li{
     display: flex;
