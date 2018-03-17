@@ -192,10 +192,12 @@ section{
     padding: 0 15px;
     border: 1px solid #ddd;
     margin-right: 5px;
+    border-bottom: none;
 }
 #store_content ul.store_tabs li.current{
     border: 2px solid #edd28b;
     border-bottom: none;
     background: #fff;
+    height: 30px;
 }
 
