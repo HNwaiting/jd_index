@@ -183,9 +183,19 @@ section{
     z-index: 30;
 }
 #store_content ul.store_tabs{
-    float: left;
-    border-bottom: none;
+    display: flex;
     height: 30px;
     line-height: 30px;
     border-bottom: 2px solid #edd28b;
 }
+#store_content ul.store_tabs li{
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+#store_content ul.store_tabs li.current{
+    border: 2px solid #edd28b;
+    border-bottom: none;
+    background: #fff;
+}
+
