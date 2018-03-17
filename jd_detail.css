@@ -171,16 +171,21 @@ section{
     position: absolute;
     left:-10px;
     top: 24px;
+    padding: 5px;
 }
 /*鼠标移入*/
 #store_select:hover #store_content{
     display: block;
+    /*z-index: 10;*/
 }
 #store_select:hover #store_select span{
     border-bottom-color: white;
     z-index: 30;
 }
-#store_content #store_tabs li{
-    display: flex;
-    justify-content: space-between;
+#store_content ul.store_tabs{
+    float: left;
+    border-bottom: none;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #edd28b;
 }
