@@ -206,10 +206,8 @@ section{
     padding-left: 10px;
 }
 #store_items li{
-    line-height: 38px;
     float: left;
-    width: 80px;
+    line-height: 38px;
     cursor: pointer;
-    color: #005aa0;
     padding: 2px 0 2px 15px;
 }
