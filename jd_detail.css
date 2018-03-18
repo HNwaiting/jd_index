@@ -200,4 +200,16 @@ section{
     background: #fff;
     height: 30px;
 }
-
+/*弹出框列表*/
+#store_items{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#store_items li{
+    line-height: 38px;
+    float: left;
+    width: 80px;
+    cursor: pointer;
+    color: #005aa0;
+    padding: 2px 0 2px 15px;
+}
