@@ -226,3 +226,32 @@ section{
     border: 2px solid #E4393C;
     padding: 0 5px 0 0;
 }
+#choose_color a.selected b{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    background: url("images/iconlist_1.png") no-repeat -202px -224px;
+}
+#choose_amount a.btn_add,a.btn_reduce{
+    background-position: -216px -190px;
+    float: left;
+    background-image: url(images/iconlist_1.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+#choose_amount input{
+    width: 30px;
+    height: 16px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    text-align: center;
+    float: left;
+    margin: 0 3px;
+}
