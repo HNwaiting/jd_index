@@ -211,3 +211,18 @@ section{
     cursor: pointer;
     padding: 2px 0 2px 15px;
 }
+/*选择颜色*/
+#choose_color{
+    height: 30px;
+}
+#choose_color a{
+    border: 1px solid #ddd;
+    padding: 1px 6px 1px 1px;
+    margin: 2px 8px 2px 0;
+    float: left;
+    position: relative;
+}
+#choose_color a.selected{
+    border: 2px solid #E4393C;
+    padding: 0 5px 0 0;
+}
