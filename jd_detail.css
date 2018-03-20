@@ -255,3 +255,20 @@ section{
     float: left;
     margin: 0 3px;
 }
+#choose_btns a {
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    margin: 10px 6px 0 0;
+}
+a.choose_btn_append {
+    width: 137px;
+    background-image: url("images/iconlist_4.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+a.choose_mark {
+    width: 78px;
+    background-image: url(images/iconlist_4.png);
+    background-position: 0 -307px;
+}
