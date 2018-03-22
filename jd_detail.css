@@ -280,4 +280,13 @@ a.choose_mark {
     line-height: 30px;
     padding-left: 10px;
 }
-
+/*列表*/
+#related-sorts ul{
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 5px;
+    display: flex;
+}
+#related-sorts li{
+    width: 50%;
+}
