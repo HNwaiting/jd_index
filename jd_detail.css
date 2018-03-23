@@ -43,7 +43,7 @@ section{
 /************************产品介绍**************************/
 #produck_intro{
     display: flex;
-    height: 400px;
+    height: 470px;
     justify-content: space-between;
     margin: 10px 0;
 }
@@ -286,7 +286,12 @@ a.choose_mark {
     border-top: none;
     padding: 5px;
     display: flex;
+    /*控制样式*/
+    flex-wrap: wrap;
 }
 #related-sorts li{
     width: 50%;
+    line-height: 20px;
+    padding: 3px 0;
+    overflow: hidden;
 }
