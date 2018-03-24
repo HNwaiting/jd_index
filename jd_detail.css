@@ -295,3 +295,18 @@ a.choose_mark {
     padding: 3px 0;
     overflow: hidden;
 }
+/*最终购买*/
+#lf_product .view_buy{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#lf_product .view_buy p{
+    width: 193px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    padding:0 8px;
+}
