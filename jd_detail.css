@@ -298,9 +298,10 @@ a.choose_mark {
 /*最终购买*/
 #lf_product .view_buy{
     margin-bottom: 10px;
+    margin-top: 10px;
     overflow: hidden;
 }
-#lf_product .view_buy p{
+#lf_product .view_buy>p{
     width: 193px;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
