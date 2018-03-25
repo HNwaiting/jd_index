@@ -311,3 +311,17 @@ a.choose_mark {
     font-weight: 400;
     padding:0 8px;
 }
+#lf_product .m_content{
+    border: 1px solid #ddd;
+    border-top:0;
+    overflow: hidden;
+    padding: 4px 2px 4px 6px;
+}
+#lf_product .view_buy ul p{
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+div.view_buy li{
+    border-bottom: 1px dotted #dedede;
+}
