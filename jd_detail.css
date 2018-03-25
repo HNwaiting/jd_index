@@ -322,6 +322,12 @@ a.choose_mark {
     padding: 5px 0;
     margin-bottom: 5px;
 }
+#lf_product .view_buy ul p img{
+    border: 0;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+}
 div.view_buy li{
     border-bottom: 1px dotted #dedede;
 }
