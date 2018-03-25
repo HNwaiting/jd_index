@@ -352,3 +352,21 @@ div.view_buy ul li.bottom{
 #product_picture ul li{
     margin-bottom: 10px;
 }
+
+/*右侧部分*/
+#rt_product{
+    width: 990px;
+    float: right;
+}
+#rt_product #favorable_suit{
+    margin-bottom: 10px;
+    padding-top: 2px;
+}
+#favorable_suit .main_tabs{
+    padding:0 8px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-top: 2px solid #999;
+}
