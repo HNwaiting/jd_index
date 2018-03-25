@@ -348,3 +348,7 @@ div.view_buy ul li>h2 a{
 div.view_buy ul li.bottom{
     border-bottom: none;
 }
+
+#product_picture ul li{
+    margin-bottom: 10px;
+}
