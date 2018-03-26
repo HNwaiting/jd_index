@@ -362,7 +362,9 @@ div.view_buy ul li.bottom{
     margin-bottom: 10px;
     padding-top: 2px;
 }
-#favorable_suit .main_tabs{
+ #favorable_suit .main_tabs{
+     /*宽度为什么没继承*/
+     width: 990px;
     padding:0 8px;
     height: 28px;
     line-height: 28px;
