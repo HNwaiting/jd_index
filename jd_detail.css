@@ -394,4 +394,6 @@ ul.suits{
 }
 ul.suits li{
     float: left;
+    width: 145px;
+    padding-left: 20px;
 }
