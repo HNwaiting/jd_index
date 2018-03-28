@@ -380,3 +380,18 @@ div.view_buy ul li.bottom{
     clear: both;
     overflow: hidden;
 }
+.master {
+    float: left;
+    width: 155px;
+    padding: 0 0 10px 10px;
+    overflow: hidden;
+}
+ul.suits{
+    float: left;
+    width: 620px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+ul.suits li{
+    float: left;
+}
