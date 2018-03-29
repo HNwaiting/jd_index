@@ -379,6 +379,8 @@ div.view_buy ul li.bottom{
     border-top:none;
     clear: both;
     overflow: hidden;
+    /*宽度为什么没继承*/
+    /*width: 990px;*/
 }
 .master {
     float: left;
@@ -409,6 +411,6 @@ span.add{
     float: right;
     width: 24px;
     height: 22px;
-    margin-top: 30px;
+    margin-top: 40px;
     background: url("images/iconlist_1.png") no-repeat 0 -260px;
 }
