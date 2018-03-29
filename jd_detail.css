@@ -175,7 +175,7 @@ section{
 /*鼠标移入*/
 #store_select:hover #store_content{
     display: block;
-    /*z-index: 10;*/
+    z-index: 10;
 }
 #store_select:hover #store_select span{
     border-bottom-color: white;
