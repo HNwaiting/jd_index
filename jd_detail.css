@@ -386,6 +386,10 @@ div.view_buy ul li.bottom{
     padding: 0 0 10px 10px;
     overflow: hidden;
 }
+.master p{
+    width: 100px;
+    padding: 0 13px;
+}
 ul.suits{
     float: left;
     width: 620px;
@@ -396,4 +400,15 @@ ul.suits li{
     float: left;
     width: 145px;
     padding-left: 20px;
+}
+ul.suits li p{
+    width: 125px;
+    padding: 0 13px;
+}
+span.add{
+    float: right;
+    width: 24px;
+    height: 22px;
+    margin-top: 30px;
+    background: url("images/iconlist_1.png") no-repeat 0 -260px;
 }
