@@ -376,7 +376,7 @@ div.view_buy ul li.bottom{
     border: 1px solid #ddd;
     border-top: 2px solid #999;
 }
- /*优惠套餐*/
+ /**************优惠套餐***********************/
 .m_content{
     padding: 20px 0 0 0;
     border: 1px solid #ddd;
@@ -415,4 +415,54 @@ span.add{
     height: 22px;
     margin-top: 40px;
     background: url("images/iconlist_1.png") no-repeat 0 -260px;
+}
+.infos {
+    float: left;
+    width: 190px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+.infos span {
+    float: left;
+    width: 24px;
+    height: 22px;
+    background-position: -30px -260px;
+    margin-top: 40px;
+    background-image: url(images/iconlist_1.png);
+    background-repeat: no-repeat;
+    line-height: 20px;
+}
+.infos h1 {
+    height:36px;
+    margin-left: 35px;
+    font-size:10pt;
+}
+.infos h1 a {
+    color:#005AA0;
+    font-weight:700;
+}
+.infos p,.infos .btns {
+    margin-left: 35px;
+    color:#999;
+    line-height:20px;
+}
+.empasis {
+    color: #E4393C;
+}
+.strike {
+    text-decoration: line-through;
+}
+.btn_buy,  .btn_buy:hover  {
+    display: block;
+    width: 77px;
+    height: 25px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 700;
+    background-image: url(images/iconlist_1.png);
+    background-repeat: no-repeat;
+    background-position: -166px -112px;
+    text-decoration:none;
 }
