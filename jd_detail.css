@@ -354,9 +354,13 @@ div.view_buy ul li.bottom{
 }
 
 /*右侧部分*/
-#rt_product{
+#rt_product {
     width: 990px;
     float: right;
+
+}
+#rt_product .m_content{
+    width: 1006px;
 }
 #rt_product #favorable_suit{
     margin-bottom: 10px;
@@ -379,8 +383,6 @@ div.view_buy ul li.bottom{
     border-top:none;
     clear: both;
     overflow: hidden;
-    /*宽度为什么没继承*/
-    /*width: 990px;*/
 }
 .master {
     float: left;
