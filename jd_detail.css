@@ -467,14 +467,34 @@ span.add{
     text-decoration:none;
 }
 /*商品详情*/
-#product_detail{
-    width: 1006px;
+ul.main_tabs {
+    padding:0;
 }
-#product_detail ul{
-    height: 40px;
-    background-color: #ddd;
-    border: 1px solid #ddd;
+.main_tabs li {
+    float:left;
+    text-align:center;
+    cursor:pointer;
 }
-#product_detail li{
-    float: left;
+.main_tabs li a {
+    height: 30px;
+    line-height: 28px;
+    font: 14px/30px 'microsoft yahei';
+    font-weight: 400;
+    padding:0 13px;
+}
+.main_tabs li.current {
+    height:34px;
+    color: #e4393c;
+    background-color: #fff;
+    margin-top: -6px;
+    margin-left:-1px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 2px solid #e4393c;
+}
+.main_tabs li.current a {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 12px;
+    color: #e4393c;
 }
