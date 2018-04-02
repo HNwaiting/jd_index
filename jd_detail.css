@@ -507,3 +507,18 @@ ul.main_tabs {
     padding: 0 12px;
     color: #e4393c;
 }
+/*商品介绍*/
+ul.detail_list {
+    padding: 8px;
+    border:1px solid #DEDFDE;
+    border-width: 0 1px 1px;
+    overflow: hidden;
+}
+ul.detail_list li {
+    float: left;
+    width: 33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 4px 0;
+}
