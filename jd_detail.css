@@ -522,3 +522,46 @@ ul.detail_list li {
     white-space: nowrap;
     padding: 4px 0;
 }
+.detail_content {
+    text-align:center;
+    padding-top:10px;
+}
+.detail_content>div {
+    width: 753px;
+}
+/*虚线分隔线，京东分隔线*/
+.dotted_split,.jd_split {
+    overflow: hidden;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px dashed #e6e6e6;
+    line-height: 23px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    margin:0px auto;
+    margin-bottom:10px;
+}
+.jd_split {
+    text-align: left;
+    border:0;
+    background-position: 0 -90px;
+    /*background-image: url(images/iconlist_6.png);*/
+    background-repeat: no-repeat;
+    height:30px;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    font-size:12px;
+}
+.jd_split b {
+    font-size: 18px;
+    color: #C90014;
+    padding-left: 2px;
+    padding-top: 12px;
+    line-height: 25px;
+    font-weight:normal;
+}
+.jd_split span {
+    color: #666;
+    padding-left: 10px;
+    line-height: 25px;
+    padding-top: 16px;
+}
