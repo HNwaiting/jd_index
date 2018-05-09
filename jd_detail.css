@@ -588,3 +588,7 @@ ul.detail_list li {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+/*商品评价*/
+#comment .main_tabs{
+    width: 990px;
+}
