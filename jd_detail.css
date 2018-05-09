@@ -574,3 +574,17 @@ ul.detail_list li {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+/*权利声明*/
+
+#state{
+    border-top: 1px dotted #ddd;
+    padding: 10px;
+}
+#state span{
+    color: #E4393C;
+    font-weight: bold;
+}
+#state p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
