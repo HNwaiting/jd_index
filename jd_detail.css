@@ -565,3 +565,12 @@ ul.detail_list li {
     line-height: 25px;
     padding-top: 16px;
 }
+/*服务承诺*/
+#promise{
+    border-top: 1px dotted #ddd;
+    padding: 10px;
+}
+#promise p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
