@@ -658,3 +658,6 @@ div.buyers li{
 div.buyers li span{
     color: #999;
 }
+div.btns{
+    margin: 10px 25px;
+}
