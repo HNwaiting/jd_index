@@ -577,6 +577,7 @@ ul.detail_list li {
 /*权利声明*/
 
 #state{
+    width: 990px;
     border-top: 1px dotted #ddd;
     padding: 10px;
 }
@@ -659,5 +660,21 @@ div.buyers li span{
     color: #999;
 }
 div.btns{
-    margin: 10px 25px;
+    float: right;
+    padding-right: 25px;
+    width: 145px;
+    height: 75px;
+    padding-top: 5px;
+    line-height: 15px;
+    text-align: center;
+}
+div.btns a.btn_comment{
+    display: block;
+    overflow: hidden;
+    margin: 5px auto;
+    width: 119px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    background: url(images/iconlist_1.png)no-repeat -142px -390px;
 }
