@@ -679,6 +679,7 @@ div.btns a.btn_comment{
     background: url(images/iconlist_1.png)no-repeat -142px -390px;
 }
 /*评价详情*/
-#comment_list{
-
+#comment_0{
+    padding-top: 10px;
+    display: block;
 }
