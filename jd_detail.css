@@ -690,3 +690,19 @@ div.btns a.btn_comment{
     background: #fff;
     clear: both;
 }
+.comment_item ul{
+    position: absolute;
+    top: 10px;
+    left:0;
+    width: 120px;
+    text-align: center;
+    color: #9c9a9c;
+}
+/*评论内容*/
+#comment_0 .comment_detail{
+    width: 870px;
+    border: 1px solid #d0e4c2;
+    background: #fcfffa;
+    min-height: 100px;
+    padding: 10px;
+}
