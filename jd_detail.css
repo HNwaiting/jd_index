@@ -685,7 +685,7 @@ div.btns a.btn_comment{
 }
 #comment_0 .comment_item{
     position: relative;
-    padding:0 2px 120px 0;
+    padding:0 0 2px 120px ;
     margin-top: 8px;
     background: #fff;
     clear: both;
