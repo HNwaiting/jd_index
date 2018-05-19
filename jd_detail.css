@@ -689,6 +689,7 @@ div.btns a.btn_comment{
     margin-top: 8px;
     background: #fff;
     clear: both;
+    display: block;
 }
 #comment_0 .comment_item ul{
     position: absolute;
@@ -716,11 +717,10 @@ div.btns a.btn_comment{
 #comment_0 .comment_item ul li b {
     color: #088000;
 }
-/*!*评论内容*!*/
-/*#comment_0 .comment_detail{*/
-    /*width: 870px;*/
-    /*border: 1px solid #d0e4c2;*/
-    /*background: #fcfffa;*/
-    /*min-height: 100px;*/
-    /*padding: 10px;*/
-/*}*/
+/*评论内容*/
+.comment_item .comment_detail{
+    padding: 10px 15px 5px;
+    border: 1px solid #d0e4c2;
+    background: #fcfffa;
+    display: block;
+}
