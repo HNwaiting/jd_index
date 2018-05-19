@@ -729,7 +729,9 @@ div.btns a.btn_comment{
     padding: 10px 15px 5px;
     border: 1px solid #d0e4c2;
     background: #fcfffa;
-    display: inline-block;
+}
+.comment_detail div{
+    display: block;
 }
 div.topic {
     padding: 0 0 2px;
@@ -766,4 +768,71 @@ div.topic a {
     float: right;
     color: #9C9A9C;
     margin-left: 10px;
+}
+/*某条评价：右侧内容*/
+div.comment_item table {
+    padding: 2px 0;
+    overflow: hidden;
+    color:#666;
+    vertical-align:top;
+}
+div.comment_item table tr td:first-child {
+    width: 62px;
+    height:25px;
+    line-height:25px;
+    text-align: right;
+    color: #9C9A9C;
+    vertical-align:top;
+}
+td.comment_tag span {
+    color: #333;
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 7px;
+    margin-right: 5px;
+    background: #fdedd2;
+}
+
+td.comment_show {
+    vertical-align:bottom;
+    overflow:hidden;
+    margin: 5px 0 0 5px;
+}
+td.comment_show a {
+    display:inline-block;
+    width: 118px;
+    height: 96px;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+    padding:2px 5px;
+    margin-right:5px;
+}
+td.comment_show a img {
+    width:118px;
+    height: 96px;
+}
+td.comment_show b {
+    padding:0px 1px;
+    font-weight:normal;
+}
+td.comment_show a {
+    color: #005ea7;
+    display:inline;
+    border:0;
+}
+p.btns {
+    text-align:right;
+    margin-bottom:15px;
+}
+p.btns a {
+    margin-right: 10px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d5d5d5;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#fafafa 0,#f2f2f2 100%);
+    border-radius: 3px;
+    color: #333;
 }
