@@ -724,3 +724,46 @@ div.btns a.btn_comment{
     background: #fcfffa;
     display: block;
 }
+/*用户评价详情*/
+.comment_item>div {
+    padding: 10px 15px 5px;
+    border: 1px solid #d0e4c2;
+    background: #fcfffa;
+    display: inline-block;
+}
+div.topic {
+    padding: 0 0 2px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d0e4c2;
+    overflow: hidden;
+}
+div.topic p {
+    float: left;
+    margin: 1px 0 3pxs 5px;
+    background-position: -109px -239px;
+    background-image: url(images/iconlist_1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 75px;
+    height: 14px;
+}
+div.topic p.star5 {
+    background-position: -109px -239px;
+}
+div.topic p.star4 {
+    background-position: -124px -239px;
+}
+div.topic p.star3 {
+    background-position: -139px -239px;
+}
+div.topic p.star2 {
+    background-position: -154px -239px;
+}
+div.topic p.star1 {
+    background-position: -169px -239px;
+}
+div.topic a {
+    float: right;
+    color: #9C9A9C;
+    margin-left: 10px;
+}
